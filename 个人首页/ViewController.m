@@ -57,7 +57,7 @@ static NSString *ID = @"cell";
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-//    NSLog(@"%@",NSStringFromCGPoint(scrollView.contentOffset));
+
     CGFloat offsetY = scrollView.contentOffset.y;
     CGFloat det =  offsetY - self.lastOffsetY;
     NSLog(@"det %@",@(det));
