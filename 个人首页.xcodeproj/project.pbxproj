@@ -14,6 +14,7 @@
 		186D6F8E1B6B0A9F0087CC89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186D6F8D1B6B0A9F0087CC89 /* Images.xcassets */; };
 		186D6F911B6B0A9F0087CC89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D6F8F1B6B0A9F0087CC89 /* LaunchScreen.xib */; };
 		186D6F9D1B6B0A9F0087CC89 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F9C1B6B0A9F0087CC89 /* ____Tests.m */; };
+		186D6FA81B6B124D0087CC89 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6FA71B6B124D0087CC89 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		186D6F961B6B0A9F0087CC89 /* 个人首页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人首页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186D6F9B1B6B0A9F0087CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186D6F9C1B6B0A9F0087CC89 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		186D6FA61B6B124D0087CC89 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		186D6FA71B6B124D0087CC89 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				186D6F871B6B0A9F0087CC89 /* ViewController.h */,
 				186D6F881B6B0A9F0087CC89 /* ViewController.m */,
 				186D6F8A1B6B0A9F0087CC89 /* Main.storyboard */,
+				186D6FA61B6B124D0087CC89 /* UIImage+Extension.h */,
+				186D6FA71B6B124D0087CC89 /* UIImage+Extension.m */,
 				186D6F8D1B6B0A9F0087CC89 /* Images.xcassets */,
 				186D6F8F1B6B0A9F0087CC89 /* LaunchScreen.xib */,
 				186D6F801B6B0A9F0087CC89 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				186D6F891B6B0A9F0087CC89 /* ViewController.m in Sources */,
 				186D6F861B6B0A9F0087CC89 /* AppDelegate.m in Sources */,
 				186D6F831B6B0A9F0087CC89 /* main.m in Sources */,
+				186D6FA81B6B124D0087CC89 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
