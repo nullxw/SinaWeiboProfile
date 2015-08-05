@@ -31,6 +31,7 @@ static NSString *ID = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     self.lastOffsetY = - (headerH + tabH);
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     self.automaticallyAdjustsScrollViewInsets = NO;
